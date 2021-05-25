@@ -68,7 +68,7 @@ summation [1..5]
 let words = [| "hello"; "world" |]
 
 [for w in words do if w.Contains("h") then yield w]
-[for w in words -> w]
+let q = [for w in words -> w]
 [for x in [1..99] do if x % 5 = 0 then yield x]
 
 let nums = [| 1..22 |]
