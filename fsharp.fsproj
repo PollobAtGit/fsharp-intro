@@ -7,6 +7,7 @@
     <Compile Include="readme.txt" />
     <Compile Include="104.fs" />
     <Compile Include="105.fs" />
+    <Compile Include="106.fs" />
     <Compile Include="readme.txt.fs" />
     <Compile Include="103.fs" />
     <Compile Include="102.fs" />
