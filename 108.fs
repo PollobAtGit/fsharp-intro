@@ -15,7 +15,7 @@ type CustomerName(firstName, middleName, lastName) =
     member __.Name =
         $"{firstName}{prependWhiteSpce middleName}{prependWhiteSpce lastName}"
 
-CustomerName("John", "Clerk", "Sina").
+CustomerName("John", "Clerk", "Sina")
 CustomerName("John", "Clerk", "").Name
 CustomerName("John", "", "").Name
 CustomerName("", "", "").Name

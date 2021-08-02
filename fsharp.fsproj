@@ -5,17 +5,19 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="108.fs" />
-    <Compile Include="readme.txt" />
     <Compile Include="104.fs" />
     <Compile Include="105.fs" />
     <Compile Include="106.fs" />
     <Compile Include="107.fs" />
-    <Compile Include="readme.txt.fs" />
     <Compile Include="103.fs" />
     <Compile Include="102.fs" />
     <Compile Include="101.fs" />
     <Compile Include="108.fs" />
     <Compile Include="109.fs" />
+    <Compile Include="110.fs" />
     <Compile Include="Program.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FSharp.Data" Version="4.2.0" />
   </ItemGroup>
 </Project>
